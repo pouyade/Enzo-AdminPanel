@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles can be added below */
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .transition-theme {
+    @apply transition-colors duration-200;
+  }
+} 
